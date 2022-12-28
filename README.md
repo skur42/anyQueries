@@ -11,6 +11,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 anyQueries is an app which runs your SQL query and shows the data in form of table.
 # anyQueries?
 
+asdajksdhkada
+sdashjdakjsdasd
+asd
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 anyQueries is an app which runs your SQL query and shows the data in form of table.
