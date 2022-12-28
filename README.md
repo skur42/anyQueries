@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 anyQueries is an app which runs your SQL query and shows the data in form of table.
 
 ## Features added
-- Make a query
-- Save a query
+- Make a query test1
+- Save a query test2
 - See saved queries
 - Persisting queries (currently local storage)
 
