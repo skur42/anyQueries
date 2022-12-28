@@ -6,7 +6,7 @@ anyQueries is an app which runs your SQL query and shows the data in form of tab
 
 ## Features added
 - Make a query test1
-- Save a query test2
+- Save a query test24
 - See saved queries
 - Persisting queries (currently local storage)
 
