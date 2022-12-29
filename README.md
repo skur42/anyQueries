@@ -10,6 +10,12 @@ a
 dash by
 ankur
 da
+saSA
+S
+s
+aS
+a
+s
 
 
 anyQueries is an app which runs your SQL query and shows the data in form of table.
