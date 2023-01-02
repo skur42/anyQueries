@@ -18,9 +18,6 @@ const initialState: QueryManagementState = {
   savedQueries: [],
 };
 
-const name = 'ankur';
-const age = 'dash';
-
 const queryManagementReducer = createReducer<QueryManagementState>({
   [actions.setCurrentQuery.toString()]: (state, { payload }) => ({
     ...state,
@@ -44,10 +41,6 @@ export const {
 } = createContainer(() => {
   const [state, dispatch] = useReducer(queryManagementReducer, initialState);
 
-  const setCurrentQuery = useCallback(async (currentQuery?: Query) => {
-    dispatch(actions.setCurrentQuery(currentQuery));
-  }, []);
-
   const setExpandedQuery = useCallback(async (expandedQuery?: SavedQuery) => {
     dispatch(actions.setExpandedQuery(expandedQuery));
   }, []);
@@ -59,7 +52,6 @@ export const {
   return {
     state,
     actions: {
-      setCurrentQuery,
       setSavedQueries,
       setExpandedQuery,
     },
