@@ -18,6 +18,9 @@ const initialState: QueryManagementState = {
   savedQueries: [],
 };
 
+const name = 'ankur';
+const age = 'dash';
+
 const queryManagementReducer = createReducer<QueryManagementState>({
   [actions.setCurrentQuery.toString()]: (state, { payload }) => ({
     ...state,
