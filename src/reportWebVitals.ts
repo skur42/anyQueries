@@ -11,6 +11,3 @@ const reportWebVitals = (onPerfEntry?: ReportHandler) => {
     });
   }
 };
-
-const name = 'ankur';
-export default reportWebVitals;
