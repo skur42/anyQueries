@@ -5,11 +5,3 @@ export type Query = {
   data: any;
 };
 
-export type SavedQuery = Merge<
-  {
-    id: number;
-    name: string;
-    createdAt: any;
-  },
-  Query
->;
