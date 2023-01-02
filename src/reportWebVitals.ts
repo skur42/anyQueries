@@ -1,4 +1,6 @@
 import { ReportHandler } from "web-vitals";
+import { ReportHandler2 } from "web-vitals2";
+import { ReportHandler3 } from "web-vitals3";
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
