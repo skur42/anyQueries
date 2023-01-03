@@ -1,6 +1,5 @@
 import { useCallback, useReducer } from "react";
 import { Query, SavedQuery } from "../typings/query";
-import { createAction, createContainer, createReducer } from "../utils/context";
 
 const actions = {
   setCurrentQuery: createAction("SET_CURRENT_QUERY"),
