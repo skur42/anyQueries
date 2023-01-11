@@ -1,5 +1,6 @@
 import { useCallback, useReducer } from "react";
 import { Query, SavedQuery } from "../typings/query";
+import { Query, SavedQuery } from "../typings/query";
 
 const actions = {
   setCurrentQuery: createAction("SET_CURRENT_QUERY"),
@@ -11,6 +12,7 @@ type QueryManagementState = {
   currentQuery?: Query;
   savedQueries: SavedQuery[];
   expandedQuery?: SavedQuery;
+  newStateForTest?: any;
 };
 
 const initialState: QueryManagementState = {
